@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hdmi_input_banner.png",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\drawable\\hdmi_input_banner.png"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lb_search_orb.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\drawable\\lb_search_orb.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lb_playback_now_playing_bar.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\drawable\\lb_playback_now_playing_bar.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\composite_input_banner.png",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\drawable\\composite_input_banner.png"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\vga_input_banner.png",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\drawable\\vga_input_banner.png"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lb_onboarding_start_button_background.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\drawable\\lb_onboarding_start_button_background.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lb_headers_right_fading.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\drawable\\lb_headers_right_fading.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\component_input_banner.png",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\drawable\\component_input_banner.png"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lb_speech_orb.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\drawable\\lb_speech_orb.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tv_input_banner.png",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\drawable\\tv_input_banner.png"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lb_background.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\drawable\\lb_background.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\scart_input_banner.png",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\drawable\\scart_input_banner.png"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lb_playback_progress_bar.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\drawable\\lb_playback_progress_bar.xml"
+    }
+]

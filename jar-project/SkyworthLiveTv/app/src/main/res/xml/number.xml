@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android">
+    android:keyWidth="12.5%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="50dp">
+
+    <Row android:keyWidth="14.285714%p" android:keyHeight="50dp"
+         android:keyTextSize="18sp"
+         android:labelTextSize="18sp">
+        <Key android:codes="49" android:keyLabel="1"
+             android:keyEdgeFlags="left"/>
+        <Key android:codes="50" android:keyLabel="2" />
+        <Key android:codes="51" android:keyLabel="3" />
+        <Key android:codes="52" android:keyLabel="4" />
+        <Key android:codes="53" android:keyLabel="5" />
+        <Key android:codes="54" android:keyLabel="6" />
+        <Key android:codes="55" android:keyLabel="7"
+             android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:keyHeight="50dp">
+        <Key android:codes="-3,-333" android:keyLabel="OK"
+             android:keyEdgeFlags="left"
+             android:keyTextSize="15sp"
+             android:labelTextSize="15sp"
+             android:keyWidth="14.285714%p"/>
+        <Key android:codes="56" android:keyLabel="8"
+             android:keyTextSize="18sp"
+             android:labelTextSize="18sp"
+             android:keyWidth="14.285714%p"/>
+        <Key android:codes="57" android:keyLabel="9"
+             android:keyTextSize="18sp"
+             android:labelTextSize="18sp"
+             android:keyWidth="14.285714%p"/>
+        <Key android:codes="48" android:keyLabel="0"
+             android:keyTextSize="18sp"
+             android:labelTextSize="18sp"
+             android:keyWidth="14.285714%p"/>
+        <Key android:codes="46" android:keyIcon="@drawable/icon_point"
+             android:keyWidth="14.285714%p"/>
+        <Key android:codes="-5, -555" android:keyEdgeFlags="right"
+             android:keyLabel="Delete" android:isRepeatable="true"
+             android:keyWidth="28.571430%p"
+             android:keyTextSize="15sp"
+             android:labelTextSize="15sp"/>
+    </Row>
+</Keyboard>

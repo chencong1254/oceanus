@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">SkyworthLiveTv</string>
+    <string name="empty">empty</string>
+    <string name="space">    </string>
+    <!---<<<<<<<SignalStatus Strings >>>>>>>-->
+        <string name="UnknowSignal">Unknow Signal</string>
+        <string name="UnStable">Unstable Signal</string>
+        <string name="AudioOnly">AudioOnly</string>
+        <string name="NoSignal">NoSignal</string>
+        <string name="DataOnly">DataOnly</string>
+        <string name="UnSupport">UnSupport</string>
+        <string name="LockSignal">LockSignal</string>
+        <string name="NoCiCard">No CI Card</string>
+        <string name="NoChannel">Please Scan Channel!</string>
+    <!---<<<<<<<Infobar Strings >>>>>>>-->
+    <string name="Signal_Quality">Signal Quality</string>
+    <string name="Signal_Strength">Signal Strength</string>
+    <string name="No_video_info">Unknow Video</string>
+    <string name="No_Audio_info">Unknow Audio</string>
+    <string name="No_Rating">No Rating</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+    <!---<<<<<<<SignalStatus Strings >>>>>>>-->
+
+    <!---<<<<<<<SignalStatus Strings >>>>>>>-->
+
+    <!---<<<<<<<SignalStatus Strings >>>>>>>-->
+
+    <!---<<<<<<<SignalStatus Strings >>>>>>>-->
+
+    <!---<<<<<<<SignalStatus Strings >>>>>>>-->
+    
+    <string name="tuning_name">Tuning</string>
+    <string name="signal_quality">Signal quality</string>
+
+
+    <string-array name="tuner_mode">
+        <item>DVB-C</item>
+        <item>DVB-T</item>
+        <item>DVB-S</item>
+        <item>ATV</item>
+    </string-array>
+
+    <string-array name="tuning_type">
+        <item>Auto</item>
+        <item>Mannual</item>
+        <item>Network</item>
+    </string-array>
+    
+    <string-array name="modulation_type">
+        <item>Auto</item>
+        <item>16 QAM</item>
+        <item>32 QAM</item>
+        <item>64 QAM</item>
+        <item>128 QAM</item>
+        <item>256 QAM</item>
+    </string-array>
+
+    <string-array name="symbol_type">
+        <item>Auto</item>
+        <item>Enter</item>
+    </string-array>
+
+    <string-array name="scan_mode">
+        <item>All</item>
+        <item>Scramble</item>
+        <item>Free</item>
+    </string-array>
+
+    <string-array name="band_width">
+        <item>Auto</item>
+        <item>6M</item>
+        <item>7M</item>
+        <item>8M</item>
+    </string-array>
+
+    <string-array name="sound_system">
+        <item>Auto</item>
+        <item>I</item>
+        <item>DK</item>
+        <item>M</item>
+        <item>BG</item>
+    </string-array>
+
+    <string-array name="color_system">
+        <item>Auto</item>
+        <item>PAL</item>
+        <item>NTSC</item>
+        <item>SECAM</item>
+    </string-array>
+</resources>

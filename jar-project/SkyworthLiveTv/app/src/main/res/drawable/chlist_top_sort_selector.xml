@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/chlist_sort_normal"/>
+    <item android:drawable="@drawable/chlist_sort_focus"
+          android:state_focused="true"/>
+</selector>

@@ -1,0 +1,310 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:2:1-274:12
+	package
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml
+		INJECTED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml
+	android:sharedUserId
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:4:5-46
+	android:versionName
+		INJECTED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml
+		INJECTED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml
+		INJECTED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml
+uses-permission#com.google.android.tv.permission.RECEIVE_INPUT_EVENT
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:16:5-92
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:16:22-89
+uses-permission#com.android.tv.permission.RECEIVE_INPUT_EVENT
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:17:5-85
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:17:22-82
+uses-permission#android.permission.RECEIVE_INPUT_EVENT
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:18:5-78
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:18:22-75
+uses-permission#android.permission.TV_INPUT_HARDWARE
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:19:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.INTERNET
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:21:22-64
+uses-permission#com.android.providers.tv.permission.READ_EPG_DATA
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:22:5-89
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:22:22-86
+uses-permission#com.android.providers.tv.permission.WRITE_EPG_DATA
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:23:5-90
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:23:22-87
+uses-permission#com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:24:5-95
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:24:22-92
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:25:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:27:22-78
+protected-broadcast
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:30:5-70
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:30:26-67
+application
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:33:5-272:19
+MERGED from [com.android.support:leanback-v17:25.3.1] C:\Users\sky057509\.android\build-cache\7d2ba0b1b326d4af54624584db45a014332f6354\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\sky057509\.android\build-cache\91ddb7faf24fbb053ea1f582b19c5f51fc37eec6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\sky057509\.android\build-cache\929e120d30638670ee31bb1f289a36890dacf768\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sky057509\.android\build-cache\e91f02aa2e54df89ff8d9c31870e8b70b7da01f9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sky057509\.android\build-cache\8a3abb106adc37c26f01d37a1415f794a00aa7f4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sky057509\.android\build-cache\5b2776a21fddd80d8b793f764acea9750dfab1f6\output\AndroidManifest.xml:29:5-20
+	android:screenOrientation
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:36:9-46
+	android:label
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:35:9-41
+	android:allowBackup
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:34:9-35
+activity#com.mediatek.tvinput.activity.MtkTvInputTestActivity
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:37:9-49:20
+	android:colorBackgroundCacheHint
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:39:13-53
+	android:windowIsTranslucent
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:43:13-47
+	android:windowContentOverlay
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:41:13-49
+	android:windowFullscreen
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:42:13-44
+	android:theme
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:40:13-71
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:38:13-80
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:44:13-48:29
+action#android.intent.action.MAIN
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:47:27-74
+activity#com.mediatek.tvinput.InputSettingsActivity
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:50:9-57:20
+	android:launchMode
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:52:13-44
+	android:theme
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:53:13-47
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:51:13-70
+intent-filter#android.intent.action.MAIN
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:54:13-56:29
+service#com.mediatek.tvinput.hdmi.HDMIInputService
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:59:9-71:19
+	android:process
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:63:13-49
+	android:label
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:61:13-55
+	android:permission
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:62:13-66
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:60:13-70
+intent-filter#android.media.tv.TvInputService
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:64:13-66:29
+action#android.media.tv.TvInputService
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:65:17-74
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:65:25-71
+meta-data#android.media.tv.input
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:68:13-70:61
+	android:resource
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:70:17-58
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:69:17-54
+service#com.mediatek.tvinput.vga.VGAInputService
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:72:9-84:19
+	android:process
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:76:13-49
+	android:label
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:74:13-51
+	android:permission
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:75:13-66
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:73:13-68
+activity#com.mediatek.tvinput.vga.VGAInputServiceSetup
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:86:9-90:20
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:86:19-79
+service#com.mediatek.tvinput.composite.CompositeInputService
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:92:9-104:19
+	android:process
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:96:13-49
+	android:label
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:94:13-57
+	android:permission
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:95:13-66
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:93:13-80
+activity#com.mediatek.tvinput.composite.CompositeInputServiceSetup
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:106:9-110:20
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:106:19-91
+service#com.mediatek.tvinput.composite.Composite2InputService
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:112:9-124:19
+	android:process
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:116:13-49
+	android:label
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:114:13-58
+	android:permission
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:115:13-66
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:113:13-81
+activity#com.mediatek.tvinput.composite.Composite2InputServiceSetup
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:126:9-130:20
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:126:19-92
+service#com.mediatek.tvinput.component.ComponentInputService
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:132:9-144:19
+	android:process
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:136:13-49
+	android:label
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:134:13-57
+	android:permission
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:135:13-66
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:133:13-80
+activity#com.mediatek.tvinput.component.ComponentInputServiceSetup
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:146:9-150:20
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:146:19-91
+service#com.mediatek.tvinput.dtv.TunerInputService
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:175:9-187:19
+	android:process
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:179:13-49
+	android:label
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:177:13-53
+	android:permission
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:178:13-66
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:176:13-70
+activity#com.mediatek.tvinput.dtv.TunerInputServiceSetup
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:189:9-195:20
+	android:theme
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:191:13-47
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:190:13-75
+receiver#com.mediatek.tvinput.dtv.DTVInputReceiver
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:197:9-204:20
+	android:process
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:199:19-55
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:198:13-69
+intent-filter#android.media.tv.action.BLOCKED_RATINGS_CHANGED+android.media.tv.action.PARENTAL_CONTROLS_ENABLED_CHANGED
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:200:13-203:29
+action#android.media.tv.action.PARENTAL_CONTROLS_ENABLED_CHANGED
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:201:17-100
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:201:25-97
+action#android.media.tv.action.BLOCKED_RATINGS_CHANGED
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:202:17-90
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:202:25-87
+service#com.mediatek.tvinput.svideo.SVIDEOInputService
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:206:9-218:19
+	android:process
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:210:13-49
+	android:label
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:208:13-54
+	android:permission
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:209:13-66
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:207:13-74
+activity#com.mediatek.tvinput.svideo.SVIDEOInputServiceSetup
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:220:9-224:20
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:220:19-85
+service#com.mediatek.tvinput.scart.SCARTInputService
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:226:9-238:19
+	android:process
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:230:13-49
+	android:label
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:228:13-53
+	android:permission
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:229:13-66
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:227:13-72
+activity#com.mediatek.tvinput.scart.SCARTInputServiceSetup
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:240:9-244:20
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:240:19-83
+service#com.mediatek.tvinput.dvi.DVIInputService
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:246:9-258:19
+	android:process
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:250:13-49
+	android:label
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:248:13-51
+	android:permission
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:249:13-66
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:247:13-68
+activity#com.mediatek.tvinput.dvi.DVIInputServiceSetup
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:260:9-264:20
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:260:19-79
+uses-library#com.mediatek.mmp
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:266:9-268:39
+	android:required
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:268:13-36
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:267:13-44
+uses-library#com.mediatek.twoworlds.tv
+ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:269:9-271:39
+	android:required
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:271:13-36
+	android:name
+		ADDED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml:270:13-53
+uses-sdk
+INJECTED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:leanback-v17:25.3.1] C:\Users\sky057509\.android\build-cache\7d2ba0b1b326d4af54624584db45a014332f6354\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\sky057509\.android\build-cache\91ddb7faf24fbb053ea1f582b19c5f51fc37eec6\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\sky057509\.android\build-cache\929e120d30638670ee31bb1f289a36890dacf768\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sky057509\.android\build-cache\e91f02aa2e54df89ff8d9c31870e8b70b7da01f9\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\sky057509\.android\build-cache\14dfbf929ee501549a39ae8e71f34f43d7ff1601\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sky057509\.android\build-cache\8a3abb106adc37c26f01d37a1415f794a00aa7f4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sky057509\.android\build-cache\5b2776a21fddd80d8b793f764acea9750dfab1f6\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-fragment:25.3.1] C:\Users\sky057509\.android\build-cache\91ddb7faf24fbb053ea1f582b19c5f51fc37eec6\output\AndroidManifest.xml:23:9-57
+	android:targetSdkVersion
+		INJECTED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml
+		INJECTED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml
+		INJECTED from F:\android-project\Apps\SkyworthMtkTvInput_N\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:leanback-v17:25.3.1] C:\Users\sky057509\.android\build-cache\7d2ba0b1b326d4af54624584db45a014332f6354\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\sky057509\.android\build-cache\91ddb7faf24fbb053ea1f582b19c5f51fc37eec6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\sky057509\.android\build-cache\929e120d30638670ee31bb1f289a36890dacf768\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\sky057509\.android\build-cache\e91f02aa2e54df89ff8d9c31870e8b70b7da01f9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\sky057509\.android\build-cache\14dfbf929ee501549a39ae8e71f34f43d7ff1601\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\sky057509\.android\build-cache\8a3abb106adc37c26f01d37a1415f794a00aa7f4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\sky057509\.android\build-cache\5b2776a21fddd80d8b793f764acea9750dfab1f6\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:leanback-v17:25.3.1] C:\Users\sky057509\.android\build-cache\7d2ba0b1b326d4af54624584db45a014332f6354\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:leanback-v17:25.3.1] C:\Users\sky057509\.android\build-cache\7d2ba0b1b326d4af54624584db45a014332f6354\output\AndroidManifest.xml:23:9-47

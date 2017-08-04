@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.mediatek.mmp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/com.mediatek.mmp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

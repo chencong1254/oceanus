@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="skyworth.skymtkandroidtvinput"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="25" />
+
+    <!-- android:sharedUserId="android.uid.system" -->
+
+
+    <!--
+    android.permission.ALL_EPG_DATA
+    <uses-sdk
+        android:minSdkVersion="20"
+        android:targetSdkVersion="20" />
+        <uses-permission android:name="android.permission.TV_INPUT_HARDWARE" />
+    -->
+    <uses-permission android:name="com.google.android.tv.permission.RECEIVE_INPUT_EVENT" />
+    <uses-permission android:name="com.android.tv.permission.RECEIVE_INPUT_EVENT" />
+    <uses-permission android:name="android.permission.RECEIVE_INPUT_EVENT" />
+    <uses-permission android:name="android.permission.TV_INPUT_HARDWARE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.providers.tv.permission.READ_EPG_DATA" />
+    <uses-permission android:name="com.android.providers.tv.permission.WRITE_EPG_DATA" />
+    <uses-permission android:name="com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <protected-broadcast android:name="mtk.intent.event_update_pf" />
+    <protected-broadcast android:name="mtk.intent.event_update_acitve_win" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" /> <!-- <uses-permission android:name="android.permission.HDMI_CEC" /> -->
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:screenOrientation="landscape" >
+        <activity
+            android:name="com.mediatek.tvinput.activity.MtkTvInputTestActivity"
+            android:colorBackgroundCacheHint="@null"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowContentOverlay="@null"
+            android:windowFullscreen="true"
+            android:windowIsTranslucent="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mediatek.tvinput.InputSettingsActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/Transparent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.mediatek.tvinput.hdmi.HDMIInputService"
+            android:label="@string/hdmi_service_label"
+            android:permission="android.permission.BIND_TV_INPUT"
+            android:process=":remoteTempTvInput" >
+            <intent-filter>
+                <action android:name="android.media.tv.TvInputService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.media.tv.input"
+                android:resource="@xml/hdmi_inputservice" />
+        </service>
+        <service
+            android:name="com.mediatek.tvinput.vga.VGAInputService"
+            android:label="@string/vga_input_name"
+            android:permission="android.permission.BIND_TV_INPUT"
+            android:process=":remoteTempTvInput" > <!-- remove :remoteVGATvInput prefix -->
+            <intent-filter>
+                <action android:name="android.media.tv.TvInputService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.media.tv.input"
+                android:resource="@xml/vga_inputservice" />
+        </service>
+
+        <activity android:name="com.mediatek.tvinput.vga.VGAInputServiceSetup" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.mediatek.tvinput.composite.CompositeInputService"
+            android:label="@string/composite_input_name"
+            android:permission="android.permission.BIND_TV_INPUT"
+            android:process=":remoteTempTvInput" >
+            <intent-filter>
+                <action android:name="android.media.tv.TvInputService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.media.tv.input"
+                android:resource="@xml/composite_inputservice" />
+        </service>
+
+        <activity android:name="com.mediatek.tvinput.composite.CompositeInputServiceSetup" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.mediatek.tvinput.composite.Composite2InputService"
+            android:label="@string/composite2_input_name"
+            android:permission="android.permission.BIND_TV_INPUT"
+            android:process=":remoteTempTvInput" >
+            <intent-filter>
+                <action android:name="android.media.tv.TvInputService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.media.tv.input"
+                android:resource="@xml/composite2_inputservice" />
+        </service>
+
+        <activity android:name="com.mediatek.tvinput.composite.Composite2InputServiceSetup" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.mediatek.tvinput.component.ComponentInputService"
+            android:label="@string/component_input_name"
+            android:permission="android.permission.BIND_TV_INPUT"
+            android:process=":remoteTempTvInput" >
+            <intent-filter>
+                <action android:name="android.media.tv.TvInputService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.media.tv.input"
+                android:resource="@xml/component_inputservice" />
+        </service>
+
+        <activity android:name="com.mediatek.tvinput.component.ComponentInputServiceSetup" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <!-- <service -->
+        <!-- android:name="com.mediatek.tvinput.atv.ATVInputService" -->
+        <!-- android:label="@string/atv_input_name" -->
+        <!-- android:permission="android.permission.BIND_TV_INPUT" -->
+        <!-- android:process=":remoteATVTvInput" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.media.tv.TvInputService" /> -->
+        <!-- </intent-filter> -->
+
+
+        <!-- <meta-data -->
+        <!-- android:name="android.media.tv.input" -->
+        <!-- android:resource="@xml/atv_inputservice" /> -->
+        <!-- </service> -->
+
+
+        <!-- <activity android:name="com.mediatek.tvinput.atv.ATVInputServiceSetup" -->
+        <!-- android:theme="@style/Transparent" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+
+        <service
+            android:name="com.mediatek.tvinput.dtv.TunerInputService"
+            android:label="@string/tuner_input_name"
+            android:permission="android.permission.BIND_TV_INPUT"
+            android:process=":remoteTempTvInput" >
+            <intent-filter>
+                <action android:name="android.media.tv.TvInputService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.media.tv.input"
+                android:resource="@xml/tuner_inputservice" />
+        </service>
+
+        <activity
+            android:name="com.mediatek.tvinput.dtv.TunerInputServiceSetup"
+            android:theme="@style/Transparent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.mediatek.tvinput.dtv.DTVInputReceiver"
+            android:process=":remoteTempTvInput" >
+            <intent-filter>
+                <action android:name="android.media.tv.action.PARENTAL_CONTROLS_ENABLED_CHANGED" />
+                <action android:name="android.media.tv.action.BLOCKED_RATINGS_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.mediatek.tvinput.svideo.SVIDEOInputService"
+            android:label="@string/svideo_input_name"
+            android:permission="android.permission.BIND_TV_INPUT"
+            android:process=":remoteTempTvInput" >
+            <intent-filter>
+                <action android:name="android.media.tv.TvInputService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.media.tv.input"
+                android:resource="@xml/svideo_inputservice" />
+        </service>
+
+        <activity android:name="com.mediatek.tvinput.svideo.SVIDEOInputServiceSetup" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.mediatek.tvinput.scart.SCARTInputService"
+            android:label="@string/scart_input_name"
+            android:permission="android.permission.BIND_TV_INPUT"
+            android:process=":remoteTempTvInput" >
+            <intent-filter>
+                <action android:name="android.media.tv.TvInputService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.media.tv.input"
+                android:resource="@xml/scart_inputservice" />
+        </service>
+
+        <activity android:name="com.mediatek.tvinput.scart.SCARTInputServiceSetup" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.mediatek.tvinput.dvi.DVIInputService"
+            android:label="@string/dvi_input_name"
+            android:permission="android.permission.BIND_TV_INPUT"
+            android:process=":remoteTempTvInput" >
+            <intent-filter>
+                <action android:name="android.media.tv.TvInputService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.media.tv.input"
+                android:resource="@xml/dvi_inputservice" />
+        </service>
+
+        <activity android:name="com.mediatek.tvinput.dvi.DVIInputServiceSetup" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="com.mediatek.mmp"
+            android:required="true" />
+        <uses-library
+            android:name="com.mediatek.twoworlds.tv"
+            android:required="true" />
+    </application>
+
+</manifest>

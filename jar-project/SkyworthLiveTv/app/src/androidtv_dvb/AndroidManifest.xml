@@ -1,0 +1,36 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="skyworth.skyworthlivetv"
+    android:sharedUserId="android.uid.system">
+    <application
+        android:allowBackup="true"
+        android:label="${app_name}"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+        android:banner="@drawable/icon"
+        tools:replace="android:label"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:name="skyworth.skyworthlivetv.global.GlobalApplication">
+        <activity
+            android:name=".osd.ui.mainActivity.LiveTvScreenActivity"
+            android:theme="@style/Theme.Leanback"
+            android:launchMode="singleTask"
+            android:configChanges="locale|layoutDirection|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/channel" />
+                <data android:mimeType="vnd.android.cursor.dir/channel" />
+                <data android:mimeType="vnd.android.cursor.item/program" />
+                <data android:mimeType="vnd.android.cursor.dir/program" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

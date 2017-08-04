@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ly_main_channels"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingLeft="10px"
+>
+    <LinearLayout
+        android:id="@+id/ll_second_view"
+        android:layout_marginTop="220px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/chlist_bg"
+        android:orientation="vertical">
+        <Button
+            style="@style/chlist_tv_secondfragment"
+            android:text="Favourite"
+            android:id="@+id/btn_secondefragment_favourite"
+        />
+        <Button
+            android:id="@+id/btn_secondefragment_lock"
+            style="@style/chlist_tv_secondfragment"
+            android:text="Unlock"
+        />
+        <Button
+            android:id="@+id/btn_secondefragment_skip"
+            style="@style/chlist_tv_secondfragment"
+            android:text="Unskip"
+        />
+        <Button
+            android:id="@+id/btn_secondefragment_tuning"
+            style="@style/chlist_tv_secondfragment"
+            android:text="Tuning"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TIF Test</string>
+    <string name="hdmi_service_label" translatable="false">HDMI service</string>
+    <string name="hdmi_input_name1">HDMI 0</string>
+    <string name="hdmi_input_name2">HDMI 1</string>
+    <string name="hdmi_input_name3">HDMI 2</string>
+    <string name="hdmi_input_name4">HDMI 3</string>
+    <string name="vga_input_name">VGA</string>
+    <string name="composite_input_name">Composite</string>
+    <string name="composite2_input_name">Composite 2</string>
+    <string name="component_input_name">Component</string>
+    <string name="tuner_input_name">Tuner</string>
+    <string name="atv_input_name">ATV</string>
+    <string name="svideo_input_name">SVIDEO</string>
+    <string name="scart_input_name">SCART</string>
+    <string name="dvi_input_name">DVI</string>
+    <string name="mtk_input_label">mtk_input_label</string>
+    <string name="Main">Main</string>
+    <string name="Sub">Sub</string>
+    <string name="choose_main_prompt">Main</string>
+    <string name="choose_sub_prompt">Sub</string>
+    <string name="version_name">1.0.0</string>
+    <string name="msg_no_setup_activity">The input doesn\'t support setup activity</string>
+
+</resources>

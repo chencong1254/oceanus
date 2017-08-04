@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="335px"
+              android:layout_height="80px"
+              android:orientation="vertical"
+              android:focusable="true"
+>
+    <LinearLayout android:layout_width="335px"
+                  android:layout_height="80px"
+                  android:gravity="center"
+                  android:focusable="false"
+    >
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="80px"
+                      android:gravity="center"
+                      android:id="@+id/ll_top_item"
+                      android:focusable="false"
+
+
+        >
+        <skyworth.skyworthlivetv.osd.ui.channellist.view.CustomEditText
+            android:id="@+id/et_top_name"
+            android:layout_width="wrap_content"
+            android:layout_height="80px"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12px"
+            android:layout_marginLeft="40px"
+            android:layout_marginRight="40px"
+            android:layout_marginTop="12px"
+            android:background="@color/transparent_full"
+            android:focusable="false"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:text="33333"
+            android:textColor="@color/chlist_ch_text_default"
+            android:textSize="48px"
+        />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

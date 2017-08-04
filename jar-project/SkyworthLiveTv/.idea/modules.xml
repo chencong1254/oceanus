@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OceanusTvMiddleware/OceanusTvMiddleware.iml" filepath="$PROJECT_DIR$/OceanusTvMiddleware/OceanusTvMiddleware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SkyworthLiveTv.iml" filepath="$PROJECT_DIR$/SkyworthLiveTv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidtvsupport/androidtvsupport.iml" filepath="$PROJECT_DIR$/androidtvsupport/androidtvsupport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aospsupport/aospsupport.iml" filepath="$PROJECT_DIR$/aospsupport/aospsupport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platformbaseinterface/platformbaseinterface.iml" filepath="$PROJECT_DIR$/platformbaseinterface/platformbaseinterface.iml" />
+    </modules>
+  </component>
+</project>

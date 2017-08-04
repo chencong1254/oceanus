@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\android_normal.png",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\drawable-hdpi\\android_normal.png"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\android_focused.png",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\drawable-hdpi\\android_focused.png"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\android_pressed.png",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\drawable-hdpi\\android_pressed.png"
+    }
+]

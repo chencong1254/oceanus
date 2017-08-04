@@ -1,0 +1,173 @@
+<resources>
+    <!--Picture-->
+    TVMENU_PICTURE_MODE
+    <string name="TVMENU_PICTURE_SETTING">"Picture"</string>
+    <string name="TVMENU_PICTURE_MODE_SETTING">"Picture Mode"</string>
+    <string name="TVMENU_PICTURE_MODE">"Picture Mode"</string>
+    <string name="TVMENU_BRIGHT">"Bright"</string>
+    <string name="TVMENU_CONTRAST">"Contrast"</string>
+    <string name="TVMENU_SATURATION">"Saturation"</string>
+	<string name="TVMENU_COLOR">"Color"</string>
+    <string name="TVMENU_SHARPNESS">"Sharpness"</string>
+	<string name="TVMENU_BACKLIGHT">"Back Light"</string>
+    <string name="TVMENU_COLORTEMP_SETTING">"ColorTemp Mode"</string>
+    <string name="TVMENU_COLORTEMP_MODE">"ColorTemp Mode"</string>
+    <string name="TVMENU_PICTURE_ADVANCE">"Picture Advance"</string>
+    <string name="TVMENU_SCREEN_MODE">"Screen Mode"</string>
+    <string name="TVMENU_MENC">"MEMC"</string>
+    <string name="TVMENU_NR">"NR"</string>
+    <string name="TVMENU_MPEG_NR">"Mpeg NR"</string>
+    <string name="TVMENU_DYNAMIC_LUMINANCE_CTRL">"Dynamic Lumi Ctrl"</string>
+    <string name="TVMENU_BLUE_MUTE">"Blue Mute"</string>
+    <string name="TVMENU_FILM_MODE">"Film Mode"</string>
+    <string name="TVMENU_BLUE_STRETCH">"Blue Stretch"</string>
+    <string name="TVMENU_GAME_MODE">"Game Mode"</string>
+
+    <string name="E_PICTURE_MODE_STANDARD">"Standard"</string>
+    <string name="E_PICTURE_MODE_VIVID">"Vivid"</string>
+    <string name="E_PICTURE_MODE_SOFT">"Soft</string>
+    <string name="E_PICTURE_MODE_USER">"User"</string>
+    <string name="E_PICTURE_MODE_GAME">"Game"</string>
+    <string name="E_PICTURE_MODE_AUTO">"Auto"</string>
+    <string name="E_PICTURE_MODE_NATURAL">"Natural"</string>
+    <string name="E_PICTURE_MODE_SPORTS">"Sports"</string>
+    <string name="E_PICTURE_MODE_PC">"PC"</string>
+    <string name="E_PICTURE_MODE_DYMANIC">"Dynamic"</string>
+    <string name="E_PICTURE_MODE_INVALID">"Invalid"</string>
+
+    <string name="E_COLOR_TEMPERATURE_WARM">"Warm"</string>
+    <string name="E_COLOR_TEMPERATURE_STANDARD">"Standard"</string>
+    <string name="E_COLOR_TEMPERATURE_COOL">"Cool"</string>
+    <string name="E_COLOR_TEMPERATURE_USER">"User"</string>
+    <string name="E_COLOR_TEMPERATURE_INVALID">"Invalid"</string>
+
+    <string name="E_DISPLAY_MODE_DEFAULT">"Default"</string>
+    <string name="E_DISPLAY_MODE_16_9">"16:9"</string>
+    <string name="E_DISPLAY_MODE_4_3">"4:3</string>
+    <string name="E_DISPLAY_MODE_AUTO">"Auto"</string>
+    <string name="E_DISPLAY_MODE_MOVIE">"Movie"</string>
+    <string name="E_DISPLAY_MODE_CAPTION">"Caption"</string>
+    <string name="E_DISPLAY_MODE_PERSON">"Person"</string>
+    <string name="E_DISPLAY_MODE_JUST_SCAN">"Just Scan"</string>
+    <string name="E_DISPLAY_MODE_P2P">"P2P"</string>
+    <string name="E_DISPLAY_MODE_ZOOM1">"ZOOM1"</string>
+    <string name="E_DISPLAY_MODE_ZOOM2">"ZOOM2"</string>
+    <string name="E_DISPLAY_MODE_INVALID">"Invalid"</string>
+
+    <!--Sound-->
+    <string name="TVMENU_SOUND_SETTING">"Sound"</string>
+    <string name="TVMENU_SOUND_MODE_SETTING">"Sound Mode"</string>
+    <string name="TVMENU_SOUND_MODE">"Sound Mode"</string>
+    <string name="TVMENU_EQUALIZER_120HZ">"120HZ"</string>
+    <string name="TVMENU_EQUALIZER_500HZ">"500HZ"</string>
+    <string name="TVMENU_EQUALIZER_1500HZ">"1500HZ"</string>
+    <string name="TVMENU_EQUALIZER_5KHZ">"5KHZ"</string>
+    <string name="TVMENU_EQUALIZER_10KHZ">"10KHZ"</string>
+    <string name="TVMENU_BALANCE">"Balance"</string>
+    <string name="TVMENU_SURROUND_SOUND">"Surround Sound"</string>
+    <string name="TVMENU_AUTO_VOLUME_CONTROL">"Auto Volume"</string>
+    <string name="TVMENU_AD_SWITCH">"Ad Switch"</string>
+    <string name="TVMENU_AD_VOLUME">"Ad Volume"</string>
+    <string name="TVMENU_SPDIF_TYPE">"Spdif Type"</string>
+    <string name="TVMENU_SPDIF_DELAY">"Spdif Delay"</string>
+    <string name="TVMENU_AUDIO_OUT">"Audio Out"</string>
+
+
+    <string name="E_SOUND_MODE_STANDARD">"Standard"</string>
+    <string name="E_SOUND_MODE_MUSIC">"Music"</string>
+    <string name="E_SOUND_MODE_MOVIE">"Movie</string>
+    <string name="E_SOUND_MODE_SPORT">"Sport"</string>
+    <string name="E_SOUND_MODE_USER">"User"</string>
+
+    <string name="E_SOUND_SPDIF_MODE_PCM">"Pcm"</string>
+    <string name="E_SOUND_SPDIF_MODE_AUTO">"Auto"</string>
+
+    <!--Channel-->
+    <string name="TVMENU_CHANNEL_SETTING">"Channel"</string>
+    <string name="TVMENU_TUNING">"Tuning"</string>
+	<string name="TVMENU_5V_ANTENNA">"5v Antenna"</string>
+    <string name="TVMENU_CHANNELEDIT">"Channel Edit"</string>
+	<string name="TVMENU_DEFAULT_NICAM">"Default Nicam"</string>
+    <string name="TVMENU_CI_INFORMATION">"CI Information"</string>
+
+    <!--Setup-->
+    <string name="TVMENU_SETUP_SETTING">"Setup"</string>
+    <string name="TVMENU_DEFAULT_AUDIO_LANGUAGE">"Default Audio Language"</string>
+    <string name="TVMENU_PRIMARY_AUDIO_LANGUAGE">"Primary Audio Language"</string>
+    <string name="TVMENU_SECOND_AUDIO_LANGUAGE">"Second Audio Language"</string>
+    <string name="TVMENU_SLEEP_TIMER">"Sleep Timer"</string>
+    <string name="TVMENU_ENERGY_SAVING">"Energy Saving"</string>
+    <string name="TVMENU_NO_SIGNAL_OFF">"No Signal Off"</string>
+    <string name="TVMENU_NO_OPERATION_OFF">"No Operation Off"</string>
+    <string name="TVMENU_HDMI_CEC">"HDMI CEC"</string>
+    <string name="TVMENU_HDMICEC_DEVICELIST">"DeviceList"</string>
+    <string name="TVMENU_HDMICEC_AUTO_POWER_ON">"Auto Power On"</string>
+    <string name="TVMENU_HDMICEC_AUTO_STANDBY">"Auto Standby"</string>
+    <string name="TVMENU_HDMICEC_SPEAKER_PREFERENCE">"Speacker Preference"</string>
+    <string name="TVMENU_RESET_DEFAULT">"Reset Default"</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Lock-->
+    <string name="TVMENU_LOCK_SETTING">"Lock"</string>
+    <string name="TVMENU_CHANGE_PASSWORD">"Change Password"</string>
+
+    <!--Advanced-->
+    <string name="TVMENU_ADVANCED_SETTING">"Advanced"</string>
+    <string name="TVMENU_STORE_MODE">"Store Mode"</string>
+    <string name="TVMENU_TIME_ZONE">"Time Zone"</string>
+    <string name="TVMENU_SUMMER_TIME">"Summer Time"</string>
+    <string name="TVMENU_OSD_LANGUAGE">"Osd Language"</string>
+
+    <string name="TVMENU_SUBTITLE_LANGUAGE">"Subtitle Language"</string>
+    <string name="TVMENU_PRIMARY_SUBTITLE_LANGUAGE">"Primary Subtitle Language"</string>
+    <string name="TVMENU_SECOND_SUBTITLE_LANGUAGE">"Second Subtitle Language"</string>
+    <string name="TVMENU_TELETEXT_LANGUAGE">"Teletext Language"</string>
+    <string name="TVMENU_OAD">"OAD"</string>
+    <string name="TVMENU_OPEN_INSTALL_RESET">"Open Install Reset"</string>
+    <string name="TVMENU_HDMI_EDID">"HDMI EDID"</string>
+
+
+    <string name="Chinese">"Chinese"</string>
+    <string name="English">"English"</string>
+    <string name="French">"French"</string>
+    <string name="Russian">"Russian"</string>
+    <string name="Japanese">"Japanese"</string>
+    <string name="Korean">"Korean"</string>
+    <string name="Swedish">"Swedish"</string>
+
+    <string name="Thailand">"Thailand"</string>
+    <string name="Israel">"Korean"</string>
+    <string name="Germany">"Swedish"</string>
+
+    <string name="picture_mode">"Picture mode"</string>
+    <string name="aspect_ratio">"Aspect ratio"</string>
+
+    <string name="sound_mode">"Sound mode"</string>
+    <string name="color_encoding_system">"Color encoding system"</string>
+
+
+
+
+
+    <string name="open">"开"</string>
+    <string name="close">"关"</string>
+
+
+
+
+
+
+</resources>

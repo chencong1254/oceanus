@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.mediatek.twoworlds.tv">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/com.mediatek.twoworlds.tv.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorSeekbar2BackStart">#b3222222</color>
+    <color name="colorSeekbar2BackCenter">#b3b2b2b2</color>
+    <color name="colorSeekbar2BackEnd">#b3ffffff</color>
+    <color name="colorSeekbar2ProStart">#ff333333</color>
+    <color name="colorSeekbar2ProCenter">#ff6c63fe</color>
+    <color name="colorSeekbar2ProEnd">#ffffffff</color>
+
+
+
+    <color name="colorPrimaryText">#000000</color>
+    <color name="colorSecondaryText">#434343</color>
+    <color name="colorTipsText">#5e5e5e</color>
+    <color name="colorDisabledText">#c2c2c2</color> 
+    <drawable name="nav_input_pwd">#4b5459</drawable>
+    <color name="white">#ffffff</color> <!-- 白色 -->
+    <color name="black">#000000</color> <!-- 黑色 -->
+	<color name="transparent">#00000000</color>
+	<color name="half_transparent">#10000000</color>
+	<color name="capture_gray_background">#ff888888</color>
+	<color name="video_text_color">#00FFFFFF</color>
+	<color name="menu_main_MenuSetUpListView">#00000000</color>
+	<drawable name="translucent_background">
+		#00000000
+	</drawable>
+	<drawable name="tvview_background">
+		#fff74dff
+	</drawable>
+	<drawable name="tv_background">
+		#00000000
+    </drawable>
+    <color name="mmp_videoplay_color">#000000</color>
+	<color name="mmp_asycgriditem_color">#00000000</color>
+	<color name="mmp_seek_time_color">#00000000</color>
+	<color name="dark_yellow">#fffefe11</color>
+	<!-- password control box-yellow -->
+	<color name="nav_parental_ed">#D9D919</color>
+	<drawable name="red">#7f00</drawable>
+	<drawable name="blue">#770000ff</drawable>
+	<drawable name="green">#7700ff00</drawable>
+	<drawable name="yellow">#77ffff00</drawable>
+    <drawable name="white">#ffffffff</drawable>
+
+	<drawable name="screen_background_black">#ff000000</drawable>
+	<!--<drawable name="translucent_background">#e0000000</drawable>
+	-->
+	<drawable name="transparent_background">#00000000</drawable>
+	 <color name="keyfocusbk">#6062c2</color>
+    <color name="keynormalbk">#434247</color>
+    <color name="grey">#777777</color>
+    <color name="solid_red">#f00</color>
+	<color name="solid_blue">#0000ff</color>
+	<color name="solid_green">#7cfc00</color>
+	<color name="solid_yellow">#ffffff00</color>
+	<color name="mmp_black">#00000000</color>
+
+	<color name="progress_start">#ff454543</color>
+	<color name="progress_end">#ff453452</color>
+
+    <color name="blue">#52dcf6</color><!--蓝色-->
+	<color name="red">#80ff0000</color>
+	<color name="translucent_black">#AA000000</color>
+	<color name="blue_transparent">#003cd200</color>
+	<color name="translucent_gray">#AA000000</color>
+	<color name="blue_start">#0f93b8</color>
+	<color name="green_list_head">#b8d272</color>
+	<color name="gray">#B7B8BE</color>
+	<color name="siwhite">#FFFFFFFD</color>
+	<color name="darkwhite">#FFFFFF</color>
+
+	<color name="lightblue">#87cefa</color>
+	<color name="yellow">#77ffff00</color>
+	<drawable name="barcolor">#33b5e5</drawable>
+	
+	<color name="finishpercentage_color">#ffff33</color>
+	
+	
+	<color name="focus_black">#ff005500</color>
+	<color name="focus_red">#55553322</color>
+	
+	<color name="list_con">#22556678</color>
+	<color name="list_bian">#55668877</color>
+	<color name="ttx_top">#ff00529b</color>
+	<color name="setup_password_bg">#22ffffff</color>
+	
+	
+	
+<!-- for mew color form tv settings -->
+    <drawable name="settings_item_bg_normal">#ff333333</drawable>
+    <drawable name="settings_item_bg_pressed">#ff777777</drawable>
+    <drawable name="settings_item_bg_disabled">#ff555555</drawable>
+
+    <color name="normal">#FFFFFFFF</color>
+    <color name="background">#FF707070</color>
+    <color name="quiet">#FF909090</color>
+    <color name="legacy_app_item_background">#1a000000</color>
+    <color name="settings_background">#FF1F292E</color>
+    
+    <color name="livetvsettings_background">#D8000000</color>
+
+    <drawable name="network_item_focus">#FF5CC0FF</drawable>
+    <drawable name="network_item">#FF707070</drawable>
+
+    <color name="storage_used">#FF0000</color>
+    <color name="storage_avail">#333333</color>
+    <color name="storage_apps_usage">#77831A</color>
+    <color name="storage_downloads">#476093</color>
+    <color name="storage_dcim">#793A7F</color>
+    <color name="storage_music">#8E562A</color>
+    <color name="storage_cache">#479392</color>
+    <color name="storage_misc">#7C3030</color>
+
+    <color name="icon_background">#FF4A4F51</color>
+    <drawable name="nav_ch_list">#33EEEEEE</drawable>
+    <color name="nav_button_normal">#00000000</color>
+	<color name="nav_button_select">#33EEEEEE</color>
+	<color name="nav_ch_list_title_back">#0089d6</color>
+
+    <color name="list_item_selected_summary_text_color">#4DF1F1F1</color>
+    <color name="add_accessory_hint_text_color">#FFE0E0E0</color>
+
+    <color name="captioning_color_FFFFFF">#FFFFFFFF</color>
+    <color name="captioning_color_000000">#FF000000</color>
+    <color name="captioning_color_FF0000">#FFFF0000</color>
+    <color name="captioning_color_FFFF00">#FFFFFF00</color>
+    <color name="captioning_color_00FF00">#FF00FF00</color>
+    <color name="captioning_color_00FFFF">#FF00FFFF</color>
+    <color name="captioning_color_0000FF">#FF0000FF</color>
+    <color name="captioning_color_FF00FF">#FFFF00FF</color>
+    <color name="captioning_color_000055">#FF000055</color>
+    <color name="captioning_color_0000AA">#FF0000AA</color>
+    <color name="captioning_color_005500">#FF005500</color>
+    <color name="captioning_color_005555">#FF005555</color>
+    <color name="captioning_color_0055AA">#FF0055AA</color>
+    <color name="captioning_color_0055FF">#FF0055FF</color>
+    <color name="captioning_color_00AA00">#FF00AA00</color>
+    <color name="captioning_color_00AA55">#FF00AA55</color>
+    <color name="captioning_color_00AAAA">#FF00AAAA</color>
+    <color name="captioning_color_00AAFF">#FF00AAFF</color>
+    <color name="captioning_color_00FF55">#FF00FF55</color>
+    <color name="captioning_color_00FFAA">#FF00FFAA</color>
+    <color name="captioning_color_550000">#FF550000</color>
+    <color name="captioning_color_550055">#FF550055</color>
+    <color name="captioning_color_5500AA">#FF5500AA</color>
+    <color name="captioning_color_5500FF">#FF5500FF</color>
+    <color name="captioning_color_555500">#FF555500</color>
+    <color name="captioning_color_555555">#FF555555</color>
+    <color name="captioning_color_5555AA">#FF5555AA</color>
+    <color name="captioning_color_5555FF">#FF5555FF</color>
+    <color name="captioning_color_55AA00">#FF55AA00</color>
+    <color name="captioning_color_55AA55">#FF55AA55</color>
+    <color name="captioning_color_55AAAA">#FF55AAAA</color>
+    <color name="captioning_color_55AAFF">#FF55AAFF</color>
+    <color name="captioning_color_55FF00">#FF55FF00</color>
+    <color name="captioning_color_55FF55">#FF55FF55</color>
+    <color name="captioning_color_55FFAA">#FF55FFAA</color>
+    <color name="captioning_color_55FFFF">#FF55FFFF</color>
+    <color name="captioning_color_AA0000">#FFAA0000</color>
+    <color name="captioning_color_AA0055">#FFAA0055</color>
+    <color name="captioning_color_AA00AA">#FFAA00AA</color>
+    <color name="captioning_color_AA00FF">#FFAA00FF</color>
+    <color name="captioning_color_AA5500">#FFAA5500</color>
+    <color name="captioning_color_AA5555">#FFAA5555</color>
+    <color name="captioning_color_AA55AA">#FFAA55AA</color>
+    <color name="captioning_color_AA55FF">#FFAA55FF</color>
+    <color name="captioning_color_AAAA00">#FFAAAA00</color>
+    <color name="captioning_color_AAAA55">#FFAAAA55</color>
+    <color name="captioning_color_AAAAAA">#FFAAAAAA</color>
+    <color name="captioning_color_AAAAFF">#FFAAAAFF</color>
+    <color name="captioning_color_AAFF00">#FFAAFF00</color>
+    <color name="captioning_color_AAFF55">#FFAAFF55</color>
+    <color name="captioning_color_AAFFAA">#FFAAFFAA</color>
+    <color name="captioning_color_AAFFFF">#FFAAFFFF</color>
+    <color name="captioning_color_FF0055">#FFFF0055</color>
+    <color name="captioning_color_FF00AA">#FFFF00AA</color>
+    <color name="captioning_color_FF5500">#FFFF5500</color>
+    <color name="captioning_color_FF5555">#FFFF5555</color>
+    <color name="captioning_color_FF55AA">#FFFF55AA</color>
+    <color name="captioning_color_FF55FF">#FFFF55FF</color>
+    <color name="captioning_color_FFAA00">#FFFFAA00</color>
+    <color name="captioning_color_FFAA55">#FFFFAA55</color>
+    <color name="captioning_color_FFAAAA">#FFFFAAAA</color>
+    <color name="captioning_color_FFAAFF">#FFFFAAFF</color>
+    <color name="captioning_color_FFFF55">#FFFFFF55</color>
+    <color name="captioning_color_FFFFAA">#FFFFFFAA</color>
+
+    <color name="overlay_blended_light_primary">#ffeeeeee</color>
+    <color name="overlay_blended_light_secondary">#ff878787</color>
+    <color name="lb_dialog_activity_background">#77000000</color>
+    <color name="lb_dialog_list_item_unselected_text_color">#FFF1F1F1</color>
+    <color name="lb_content_title_text_color">#FFF1F1F1</color>
+    <color name="lb_content_breadcrumb_text_color">#88F1F1F1</color>
+    <color name="lb_content_description_text_color">#88F1F1F1</color>
+    <color name="lb_action_fragment_background">#FF111111</color>
+    <color name="lb_dialog_selector_color">#0DFFFFFF</color>
+    <item name="lb_dialog_list_item_unselected_text_alpha" format="float" type="string">1.00</item>
+    <color name="lb_tv_white">#FFCCCCCC</color>
+    <item name="lb_dialog_list_item_unselected_description_text_alpha" format="float" type="string">0.50</item>
+    <item name="lb_dialog_list_item_selected_chevron_background_alpha" format="float" type="string">1.00</item>
+    <item name="lb_dialog_list_item_disabled_chevron_background_alpha" format="float" type="string">0.50</item>
+    <item name="lb_dialog_list_item_selected_title_text_alpha" format="float" type="string">1.00</item>
+    <item name="lb_dialog_list_item_disabled_title_text_alpha" format="float" type="string">0.50</item>
+    <item name="lb_dialog_list_item_selected_description_text_alpha" format="float" type="string">0.50</item>
+    <item name="lb_dialog_list_item_disabled_description_text_alpha" format="float" type="string">0.50</item>
+	<!-- menu_button -->
+	<color name="menu_button_select">#4a4f51</color>
+	<color name="menu_button_normal">#1e2020</color>
+    <!-- Default avatar colors -->
+    <color name="indigo_500">#FF3F51B5</color>
+    <!-- CH LIST -->
+    <color name="channel_item_focus">#6b63fd</color>
+    <color name="chlist_bg">#D8000000</color>
+    <color name="chlist_ch_item_right">#14151f</color>
+    <color name="chlist_ch_text_default">#777777</color>
+    <color name="chlist_ch_text_focus">#ffffff</color>
+    <color name="transparent_full">#00000000</color>
+
+    <!-- PIN dialog -->
+    <color name="pin_dialog_background">#384248</color>
+    <color name="pin_dialog_text_color_enabled">#FFEEEEEE</color>
+    <color name="pin_dialog_text_color_disabled">#4DEEEEEE</color>
+    <color name="pin_number_picker_focused_background">#4B5459</color>
+
+    <!-- Canvas colors -->
+    <color name="action_fragment_background">#FF111111</color>
+    <color name="content_breadcrumb_text_color">#88F1F1F1</color>
+    <color name="content_description_text_color">#88F1F1F1</color>
+    <color name="content_fragment_default_icon_color">#33F1F1F1</color>
+    <color name="content_title_text_color">#FFF1F1F1</color>
+    <color name="dialog_activity_background">#77000000</color>
+    <color name="list_item_selected_description_text_color">#FFF1F1F1</color>
+    <color name="list_item_selected_title_text_color">#FFF1F1F1</color>
+    <color name="list_item_unselected_text_color">#FFF1F1F1</color>
+    <color name="selector_color">#5DC1C1C1</color>
+    <color name="toast_notification_background">#881F1F1F</color>
+    <color name="toast_notification_text_color">#FFF0F0F0</color>
+    <color name="tv_white">#FFCCCCCC</color>
+    <color name="startcolor">#ff9d9e9d</color>
+    <color name="endcolor">#ff747674</color>
+    <color name="centercolor">#ff5a5d5a</color>
+
+    <item name="list_item_selected_description_text_alpha" format="float" type="dimen">0.50</item>
+    <item name="list_item_selected_title_text_alpha" format="float" type="dimen">1.00</item>
+    <item name="list_item_unselected_text_alpha" format="float" type="dimen">1.00</item>
+    <item name="list_item_disabled_chevron_background_alpha" format="float" type="dimen">0.50</item>
+    <item name="list_item_disabled_description_text_alpha" format="float" type="dimen">0.50</item>
+    <item name="list_item_disabled_title_text_alpha" format="float" type="dimen">0.50</item>
+    <item name="list_item_selected_chevron_background_alpha" format="float" type="dimen">1.00</item>
+    <item name="list_item_unselected_description_text_alpha" format="float" type="dimen">0.50</item>
+
+    <item name="picker_item_invisible_column_item_alpha" format="float" type="dimen">0.00</item>
+    <item name="picker_item_separator_alpha" format="float" type="dimen">0.50</item>
+    <item name="picker_item_visible_column_item_alpha" format="float" type="dimen">0.50</item>
+	
+</resources>

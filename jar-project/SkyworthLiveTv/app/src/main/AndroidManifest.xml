@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="skyworth.skyworthlivetv"
+    android:sharedUserId="android.uid.system">
+    <supports-screens android:xlargeScreens="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <application
+        android:allowBackup="true"
+        android:label="${app_name}"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+        tools:replace="android:label"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:name="skyworth.skyworthlivetv.global.GlobalApplication">
+        <activity android:name="skyworth.skyworthlivetv.global.LauncherActivity"
+            android:configChanges="keyboard|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".osd.ui.menu.channel.ScanActivity"
+            android:theme="@style/Transparent"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+        <activity
+            android:name=".osd.ui.menu.channel.ScanProgressActivity"
+            android:theme="@style/Transparent">
+        </activity>
+        <activity android:name=".osd.ui.channellist.ChannelListActivity"/>
+        <receiver android:name=".global.GlobalReciver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

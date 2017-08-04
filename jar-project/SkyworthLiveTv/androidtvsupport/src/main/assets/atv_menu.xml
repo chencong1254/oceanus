@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--ATV-->
+<MenuItem name="TVMENU_ATV_SETTING" type="TYPE_ROOT">
+	<!-- 图像 -->
+	<MenuItem name="TVMENU_PICTURE_SETTING" type="TYPE_TITLE">
+		<!-- 图像模式 -->
+		<MenuItem name="TVMENU_PICTURE_MODE_SETTING" cmd="MENUCMD_PICTURE_MODE">
+			<!-- 图像模式 -->
+				<MenuItem name="TVMENU_PICTURE_MODE" cmd="MENUCMD_PICTURE_MODE" association="TVMENU_BRIGHT,TVMENU_CONTRAST,TVMENU_SATURATION,TVMENU_COLOR,TVMENU_SHARPNESS"></MenuItem>
+		</MenuItem>
+
+		<!-- Brightness -->
+		<MenuItem name="TVMENU_BRIGHT" cmd="MENUCMD_BRIGHTNESS">
+			<MenuItem name="TVMENU_BRIGHT" cmd="MENUCMD_BRIGHTNESS" association="TVMENU_PICTURE_MODE"></MenuItem>
+		</MenuItem>
+
+		<!-- Contrast -->
+		<MenuItem name="TVMENU_CONTRAST" cmd="MENUCMD_CONTRAST">
+			<MenuItem name="TVMENU_CONTRAST" cmd="MENUCMD_CONTRAST" association="TVMENU_PICTURE_MODE"></MenuItem>
+		</MenuItem>
+
+		<!-- Saturation -->
+		<MenuItem name="TVMENU_SATURATION" cmd="MENUCMD_SATURATION">
+			<MenuItem name="TVMENU_SATURATION" cmd="MENUCMD_SATURATION" association="TVMENU_PICTURE_MODE"></MenuItem>
+		</MenuItem>
+
+		<!-- Color-->
+		<MenuItem name="TVMENU_COLOR" cmd="MENUCMD_COLOR">
+			<MenuItem name="TVMENU_COLOR" cmd="MENUCMD_COLOR" association="TVMENU_PICTURE_MODE"></MenuItem>
+		</MenuItem>
+
+		<!-- Sharpness -->
+		<MenuItem name="TVMENU_SHARPNESS" cmd="MENUCMD_SHARPNESS">
+			<MenuItem name="TVMENU_SHARPNESS" cmd="MENUCMD_SHARPNESS" association="TVMENU_PICTURE_MODE" ></MenuItem>
+		</MenuItem>
+
+		<!-- BackLight -->
+		<MenuItem name="TVMENU_BACKLIGHT" cmd="MENUCMD_BACKLIGHT">
+			<MenuItem name="TVMENU_BACKLIGHT" cmd="MENUCMD_BACKLIGHT"></MenuItem>
+		</MenuItem>
+
+
+		<!-- ColorTemperature Mode -->
+		<MenuItem name="TVMENU_COLORTEMP_SETTING" cmd="MENUCMD_COLORTEMP_MODE">
+			<MenuItem name="TVMENU_COLORTEMP_MODE" cmd="MENUCMD_COLORTEMP_MODE"></MenuItem>
+		</MenuItem>
+
+		<!-- Picture Advance -->
+		<MenuItem name="TVMENU_PICTURE_ADVANCE" type="TYPE_TITLE">
+
+			<!-- Screen Mode -->
+			<MenuItem name="TVMENU_SCREEN_MODE" cmd="MENUCMD_SCREEN_MODE"></MenuItem>
+
+			<!-- MEMC -->
+			<MenuItem name="TVMENU_MENC" cmd="MENUCMD_MEMC"></MenuItem>
+
+			<!-- NR (in atv)-->
+			<MenuItem name="TVMENU_NR" cmd="MENUCMD_NR"></MenuItem>
+
+			<!-- MPEG NR (in dtv)-->
+			<MenuItem name="TVMENU_MPEG_NR" cmd="MENUCMD_MPEG_NR"></MenuItem>
+
+			<!-- Dynamic Luminance Control -->
+			<MenuItem name="TVMENU_DYNAMIC_LUMINANCE_CTRL" cmd="MENUCMD_DYNAMIC_LUMINANCE_CTRL"></MenuItem>
+
+			<!-- Blue Mute-->
+			<MenuItem name="TVMENU_BLUE_MUTE" cmd="MENUCMD_BLUE_MUTE"></MenuItem>
+
+			<!-- Film Mode-->
+			<MenuItem name="TVMENU_FILM_MODE" cmd="MENUCMD_FILM_MODE"></MenuItem>
+
+			<!-- Blue Stretch-->
+			<MenuItem name="TVMENU_BLUE_STRETCH" cmd="MENUCMD_BLUE_STRETCH"> </MenuItem>
+			<!-- Game Mode-->
+			<MenuItem name="TVMENU_GAME_MODE" cmd="MENUCMD_GAME_MODE"></MenuItem>
+
+	</MenuItem>
+
+</MenuItem>
+
+	<!--声音-->
+	<MenuItem name="TVMENU_SOUND_SETTING"  type="TYPE_TITLE">
+		<!-- 声音模式 -->
+		<MenuItem name="TVMENU_SOUND_MODE_SETTING" cmd="MENUCMD_SOUND_MODE">
+			<!-- 声音模式 -->
+			<MenuItem name="TVMENU_SOUND_MODE" cmd="MENUCMD_SOUND_MODE" association="MENUCMD_EQUALIZER_120HZ,MENUCMD_EQUALIZER_500HZ,MENUCMD_EQUALIZER_1500HZ,MENUCMD_EQUALIZER_5KHZ,MENUCMD_EQUALIZER_10KHZ"></MenuItem>
+			<!-- 120HZ-->
+			<MenuItem name="TVMENU_EQUALIZER_120HZ" cmd="MENUCMD_EQUALIZER_120HZ" association="MENUCMD_SOUND_MODE"></MenuItem>
+			<!-- 500HZ -->
+			<MenuItem name="TVMENU_EQUALIZER_500HZ" cmd="MENUCMD_EQUALIZER_500HZ" association="MENUCMD_SOUND_MODE"></MenuItem>
+			<!-- 1500HZ -->
+			<MenuItem name="TVMENU_EQUALIZER_1500HZ" cmd="MENUCMD_EQUALIZER_1500HZ" association="MENUCMD_SOUND_MODE"></MenuItem>
+			<!-- 5KHZ-->
+			<MenuItem name="TVMENU_EQUALIZER_5KHZ" cmd="MENUCMD_EQUALIZER_5KHZ" association="MENUCMD_SOUND_MODE"></MenuItem>
+			<!-- 10KHZ -->
+			<MenuItem name="TVMENU_EQUALIZER_10KHZ" cmd="MENUCMD_EQUALIZER_10KHZ" association="MENUCMD_SOUND_MODE" ></MenuItem>
+		</MenuItem>
+
+		<!-- 平衡  -->
+		<MenuItem name="TVMENU_BALANCE" cmd="MENUCMD_BALANCE">
+			<MenuItem name="TVMENU_BALANCE" cmd="MENUCMD_BALANCE" ></MenuItem>
+		</MenuItem>
+
+		<!-- Surround Sound  -->
+		<MenuItem name="TVMENU_SURROUND_SOUND" cmd="MENUCMD_SURROUND_SOUND">
+			<MenuItem name="TVMENU_SURROUND_SOUND" cmd="MENUCMD_SURROUND_SOUND" ></MenuItem>
+		</MenuItem>
+
+		<!-- Auto Volume Control  -->
+		<MenuItem name="TVMENU_AUTO_VOLUME_CONTROL" cmd="MENUCMD_AUTO_VOLUME_CONTROL">
+			<MenuItem name="TVMENU_AUTO_VOLUME_CONTROL" cmd="MENUCMD_AUTO_VOLUME_CONTROL" ></MenuItem>
+		</MenuItem>
+
+		<!-- AD Switch  -->
+		<MenuItem name="TVMENU_AD_SWITCH" cmd="MENUCMD_AD_SWITCH">
+			<MenuItem name="TVMENU_AD_SWITCH" cmd="MENUCMD_AD_SWITCH" ></MenuItem>
+			<MenuItem name="TVMENU_AD_VOLUME" cmd="MENUCMD_AD_VOLUME" ></MenuItem>
+		</MenuItem>
+
+
+		<!-- Spdif Type  -->
+		<MenuItem name="TVMENU_SPDIF_TYPE" cmd="MENUCMD_SPDIF_TYPE">
+			<MenuItem name="TVMENU_SPDIF_TYPE" cmd="MENUCMD_SPDIF_TYPE" ></MenuItem>
+		</MenuItem>
+
+		<!-- Spdif Delay  -->
+		<MenuItem name="TVMENU_SPDIF_DELAY" cmd="MENUCMD_SPDIF_DELAY">
+			<MenuItem name="TVMENU_SPDIF_DELAY" cmd="MENUCMD_SPDIF_DELAY" ></MenuItem>
+		</MenuItem>
+
+		<!-- Audio Output  -->
+		<MenuItem name="TVMENU_AUDIO_OUT" cmd="MENUCMD_AUDIO_OUT">
+			<MenuItem name="TVMENU_AUDIO_OUT" cmd="MENUCMD_AUDIO_OUT" ></MenuItem>
+		</MenuItem>
+
+	</MenuItem>
+
+	<!--Channel-->
+	<MenuItem name="TVMENU_CHANNEL_SETTING" type="TYPE_TITLE">
+		<!-- Tuning -->
+		<MenuItem name="TVMENU_TUNING" type="TYPE_TITLE">
+			<MenuItem name="TVMENU_TUNING" cmd="MENUCMD_START_TUNING" type="TYPE_FLIPOUT"></MenuItem>
+		</MenuItem>
+		<!-- 5V Antenna -->
+		<MenuItem name="TVMENU_5V_ANTENNA" cmd="MENUCMD_5V_ANTENNA" >
+			<MenuItem name="TVMENU_5V_ANTENNA" cmd="MENUCMD_5V_ANTENNA"></MenuItem>		
+		</MenuItem>
+		<!--Channel Edit-->
+		<MenuItem name="TVMENU_CHANNELEDIT"  type="TYPE_TITLE" >
+			<MenuItem name="TVMENU_5V_ANTENNA" cmd="MENUCMD_START_CHANNEL_EDIT" type="TYPE_FLIPOUT"></MenuItem>
+		</MenuItem>
+		<!-- Default Nicam -->
+		<MenuItem name="TVMENU_DEFAULT_NICAM" cmd="MENUCMD_DEFAULT_NICAM" >
+			<MenuItem name="TVMENU_DEFAULT_NICAM" cmd="MENUCMD_DEFAULT_NICAM" ></MenuItem>
+		</MenuItem>
+		<!-- CI Information -->
+		<MenuItem name="TVMENU_CI_INFORMATION" type="TYPE_TITLE">
+			<MenuItem name="TVMENU_CI_INFORMATION" cmd="MENUCMD_CI_INFORMATION" type="TYPE_FLIPOUT"></MenuItem>
+		</MenuItem>
+	</MenuItem>
+	
+		<!--Setup-->
+	<MenuItem name="TVMENU_SETUP_SETTING" type="TYPE_TITLE">
+
+		<MenuItem name="TVMENU_DEFAULT_AUDIO_LANGUAGE" type="TYPE_TITLE" >
+			<MenuItem name="TVMENU_PRIMARY_AUDIO_LANGUAGE" cmd="MENUCMD_PRIMARY_AUDIO_LANGUAGE" >
+				<MenuItem name="TVMENU_PRIMARY_AUDIO_LANGUAGE" cmd="MENUCMD_PRIMARY_AUDIO_LANGUAGE" ></MenuItem>
+			</MenuItem>
+			<MenuItem name="TVMENU_SECOND_AUDIO_LANGUAGE" cmd="MENUCMD_SECOND_AUDIO_LANGUAGE" >
+				<MenuItem name="TVMENU_SECOND_AUDIO_LANGUAGE" cmd="MENUCMD_SECOND_AUDIO_LANGUAGE" ></MenuItem>
+			</MenuItem>
+		</MenuItem>
+
+		<MenuItem name="TVMENU_SLEEP_TIMER" cmd="MENUCMD_SLEEP_TIMER" ></MenuItem>
+
+		<MenuItem name="TVMENU_ENERGY_SAVING" type="TYPE_TITLE" >
+			<MenuItem name="TVMENU_NO_SIGNAL_OFF" cmd="MENUCMD_NO_SIGNAL_OFF" ></MenuItem>
+			<MenuItem name="TVMENU_NO_OPERATION_OFF" cmd="MENUCMD_NO_OPERATION_OFF" ></MenuItem>
+		</MenuItem>
+
+		<MenuItem name="TVMENU_HDMI_CEC" type="TYPE_TITLE" >
+			<MenuItem name="TVMENU_HDMI_CEC" cmd="MENUCMD_HDMI_CEC" ></MenuItem>
+			<MenuItem name="TVMENU_HDMICEC_DEVICELIST" cmd="MENUCMD_HDMICEC_DEVICELIST" ></MenuItem>
+			<MenuItem name="TVMENU_HDMICEC_AUTO_POWER_ON" cmd="MENUCMD_HDMICEC_AUTO_POWER_ON" ></MenuItem>
+			<MenuItem name="TVMENU_HDMICEC_AUTO_STANDBY" cmd="MENUCMD_HDMICEC_AUTO_STANDBY" ></MenuItem>
+			<MenuItem name="TVMENU_HDMICEC_SPEAKER_PREFERENCE" cmd="MENUCMD_HDMICEC_SPEAKER_PREFERENCE" ></MenuItem>
+		</MenuItem>
+
+		<MenuItem name="TVMENU_RESET_DEFAULT" cmd="MENUCMD_RESET_DEFAULT" type="TYPE_FLIPOUT"></MenuItem>
+
+	</MenuItem>	
+		
+	<!--Lock-->
+	<MenuItem name="TVMENU_LOCK_SETTING" type="TYPE_TITLE">
+		<MenuItem name="TVMENU_CHANGE_PASSWORD" ></MenuItem>
+	</MenuItem>	
+	
+		<!--Advanced-->
+	<MenuItem name="TVMENU_ADVANCED_SETTING" type="TYPE_TITLE">
+		<MenuItem name="TVMENU_STORE_MODE" cmd="MENUCMD_STORE_MODE" > 
+			<MenuItem name="TVMENU_STORE_MODE" cmd="MENUCMD_STORE_MODE"></MenuItem>
+		</MenuItem>
+		<MenuItem name="TVMENU_TIME_ZONE" cmd="MENUCMD_TIME_ZONE" >
+			<MenuItem name="TVMENU_TIME_ZONE" cmd="MENUCMD_TIME_ZONE"></MenuItem>
+		</MenuItem>
+		<MenuItem name="TVMENU_SUMMER_TIME" cmd="MENUCMD_SUMMER_TIME" >
+			<MenuItem name="TVMENU_SUMMER_TIME" cmd="MENUCMD_SUMMER_TIME"></MenuItem>
+		</MenuItem>
+		<MenuItem name="TVMENU_OSD_LANGUAGE" cmd="MENUCMD_OSD_LANGUAGE" >
+			<MenuItem name="TVMENU_OSD_LANGUAGE" cmd="MENUCMD_OSD_LANGUAGE"></MenuItem>
+		</MenuItem>
+		<MenuItem name="TVMENU_SUBTITLE_LANGUAGE" type="TYPE_TITLE" >
+			<MenuItem name="TVMENU_PRIMARY_SUBTITLE_LANGUAGE" cmd="MENUCMD_PRIMARY_SUBTITLE_LANGUAGE" >
+				<MenuItem name="TVMENU_PRIMARY_SUBTITLE_LANGUAGE" cmd="MENUCMD_PRIMARY_SUBTITLE_LANGUAGE" ></MenuItem>
+			</MenuItem>
+			<MenuItem name="TVMENU_SECOND_SUBTITLE_LANGUAGE" cmd="MENUCMD_SECOND_SUBTITLE_LANGUAGE" >
+				<MenuItem name="TVMENU_SECOND_SUBTITLE_LANGUAGE" cmd="MENUCMD_SECOND_SUBTITLE_LANGUAGE" ></MenuItem>
+			</MenuItem>
+		</MenuItem>
+		<MenuItem name="TVMENU_TELETEXT_LANGUAGE" cmd="MENUCMD_TELETEXT_LANGUAGE" >
+			<MenuItem name="TVMENU_TELETEXT_LANGUAGE" cmd="MENUCMD_TELETEXT_LANGUAGE"></MenuItem>
+		</MenuItem>
+		<MenuItem name="TVMENU_OAD" cmd="MENUCMD_OAD" >
+			<MenuItem name="TVMENU_OAD" cmd="MENUCMD_OAD"></MenuItem>
+		</MenuItem>
+		<MenuItem name="TVMENU_OPEN_INSTALL_RESET" cmd="MENUCMD_OPEN_INSTALL_RESET" >
+			<MenuItem name="TVMENU_OPEN_INSTALL_RESET" cmd="MENUCMD_OPEN_INSTALL_RESET"></MenuItem>
+		</MenuItem>
+		<MenuItem name="TVMENU_HDMI_EDID" cmd="MENUCMD_HDMI_EDID" >
+			<MenuItem name="TVMENU_HDMI_EDID" cmd="MENUCMD_HDMI_EDID"></MenuItem>
+		</MenuItem>
+	</MenuItem>
+</MenuItem>

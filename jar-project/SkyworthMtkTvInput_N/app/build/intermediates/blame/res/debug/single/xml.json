@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\xml\\composite2_inputservice.xml",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\xml\\composite2_inputservice.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\xml\\svideo_inputservice.xml",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\xml\\svideo_inputservice.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\xml\\tuner_inputservice.xml",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\xml\\tuner_inputservice.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\xml\\vga_inputservice.xml",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\xml\\vga_inputservice.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\xml\\composite_inputservice.xml",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\xml\\composite_inputservice.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\xml\\component_inputservice.xml",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\xml\\component_inputservice.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\xml\\dvi_inputservice.xml",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\xml\\dvi_inputservice.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\xml\\scart_inputservice.xml",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\xml\\scart_inputservice.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\xml\\hdmi_inputservice.xml",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\xml\\hdmi_inputservice.xml"
+    }
+]

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_trid_fragment"
+              android:layout_width="wrap_content"
+              android:layout_height="400px"
+              android:layout_marginLeft="6px"
+
+              android:orientation="vertical">
+    <LinearLayout
+        android:background="@drawable/chlist_trid_fragment_for_first_selector"
+        android:id="@+id/ll_trid_first"
+        style="@style/chlist_ll_tridfragment">
+
+        <ImageView
+            android:id="@+id/iv_fav_type_1"
+            style="@style/chlist_iv_tridfragment"
+        />
+
+        <TextView
+            android:id="@+id/tv_fav_name_first"
+            style="@style/chlist_tv_tridfragment"
+            android:text="My Favorite"
+
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="18.5px"
+        android:id="@+id/ll_trid_second"
+        style="@style/chlist_ll_tridfragment">
+
+        <ImageView
+            android:id="@+id/iv_fav_type_2"
+            style="@style/chlist_iv_tridfragment"
+        />
+
+        <TextView
+            android:id="@+id/tv_fav_name_second"
+            style="@style/chlist_tv_tridfragment"
+                  android:text="My"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="18.5px"
+        android:id="@+id/ll_trid_trid"
+        style="@style/chlist_ll_tridfragment">
+
+        <ImageView
+            android:id="@+id/iv_fav_type_3"
+            style="@style/chlist_iv_tridfragment"
+        />
+
+        <TextView
+            android:id="@+id/tv_fav_name_trid"
+            style="@style/chlist_tv_tridfragment"
+            android:text="Favorite"
+
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="18.5px"
+        android:id="@+id/ll_trid_four"
+        style="@style/chlist_ll_tridfragment">
+
+        <ImageView
+            android:id="@+id/iv_fav_type_4"
+            style="@style/chlist_iv_tridfragment"
+        />
+
+        <TextView
+            android:id="@+id/tv_fav_name_four"
+            style="@style/chlist_tv_tridfragment"
+            android:text="My Fav"
+
+        />
+    </LinearLayout>
+</LinearLayout>

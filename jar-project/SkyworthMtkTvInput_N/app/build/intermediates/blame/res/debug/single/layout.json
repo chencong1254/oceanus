@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_image_card_view_themed_badge_right.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_image_card_view_themed_badge_right.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_details_description.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_details_description.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_row_container.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_row_container.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_background_window.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_background_window.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_onboarding_fragment.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_onboarding_fragment.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_playback_fragment.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_playback_fragment.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_vertical_grid.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_vertical_grid.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_media_list_header.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_media_list_header.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_picker.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_picker.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_image_card_view_themed_content.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_image_card_view_themed_content.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_speech_orb.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_speech_orb.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_picker_separator.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_picker_separator.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_image_card_view_themed_title.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_image_card_view_themed_title.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_browse_fragment.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_browse_fragment.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_title_view.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_title_view.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_shadow.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_shadow.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_playback_controls.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_playback_controls.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\video_surface_fragment.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\video_surface_fragment.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_rows_fragment.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_rows_fragment.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_browse_title.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_browse_title.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_list_row_hovercard.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_list_row_hovercard.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_vertical_grid_fragment.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_vertical_grid_fragment.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_guidedactions.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_guidedactions.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_header.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_header.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_picker_item.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_picker_item.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_action_2_lines.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_action_2_lines.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_control_button_secondary.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_control_button_secondary.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_guidedactions_datepicker_item.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_guidedactions_datepicker_item.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_image_card_view_themed_badge_left.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_image_card_view_themed_badge_left.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_video_surface.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_video_surface.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_details_fragment.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_details_fragment.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_guidedactions_item.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_guidedactions_item.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_action_1_line.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_action_1_line.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_search_orb.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_search_orb.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_fullwidth_details_overview_logo.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_fullwidth_details_overview_logo.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_row_media_item.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_row_media_item.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_picker_column.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_picker_column.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_media_item_number_view_flipper.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_media_item_number_view_flipper.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_divider.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_divider.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_control_button_primary.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_control_button_primary.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_section_header.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_section_header.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_guidedstep_fragment.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_guidedstep_fragment.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_playback_now_playing_bars.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_playback_now_playing_bars.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_search_bar.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_search_bar.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_guidedstep_background.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_guidedstep_background.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_guidance.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_guidance.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_fullwidth_details_overview.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_fullwidth_details_overview.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_list_row.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_list_row.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_row_media_item_action.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_row_media_item_action.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_row_header.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_row_header.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_search_fragment.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_search_fragment.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_error_fragment.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_error_fragment.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_guidedbuttonactions.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_guidedbuttonactions.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_headers_fragment.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_headers_fragment.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_control_bar.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_control_bar.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_image_card_view.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_image_card_view.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_details_overview.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_details_overview.xml"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lb_playback_controls_row.xml",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\layout\\lb_playback_controls_row.xml"
+    }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--###############################info bar ###################################></-->
+    <string name="isFav">current channel is one of your favourite channel</string>
+    <string name="isLock">current channel is locked</string>
+    <string name="isScrambl">current channel is isScrambled</string>
+    <string name="isGinga">current channel has Ginga</string>
+    <string name="isText">current channel has Teletext</string>
+    <string name="isCC">current channel has Closed Caption</string>
+    <string name="isSubtitle">current channel has Subtitles</string>
+</resources>

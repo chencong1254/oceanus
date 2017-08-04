@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chlist_top_name_default">
+        <item>All</item>
+        <item>Movie</item>
+        <item>Sport</item>
+        <item>Music</item>
+        <item>Live</item>
+    </string-array>
+</resources>

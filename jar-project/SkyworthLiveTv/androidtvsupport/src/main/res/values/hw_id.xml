@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="TIF_ATV_ID">HW1</string>
+    <string name="TIF_DVB_C_ID">HW0</string>
+    <string name="TIF_DVB_T_ID">HW6</string>
+    <string name="TIF_DVB_S_ID">HW7</string>
+    <string name="TIF_DTV_ID">HW0</string>
+    <string name="TIF_AV_ID">HW2</string>
+    <string name="TIF_HDMI1_ID">HW3</string>
+    <string name="TIF_HDMI2_ID">HW4</string>
+    <string name="TIF_HDMI3_ID">HW5</string>
+</resources>

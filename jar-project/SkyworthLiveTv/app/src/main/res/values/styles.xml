@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Theme.Leanback">
+        <item name="android:colorPrimary">@color/blue</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+    </style>
+    <!-- dialog theme -->
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="menu_seekbar_text">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:textColor">@color/color_thirdmenu</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+    <style name="Widget.SeekBar.Normal" parent="@android:style/Widget.SeekBar">
+        <item name="android:maxHeight">8dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/seekbar_horizontal</item>
+        <item name="android:minHeight">8dip</item>
+        <item name="android:thumb">@drawable/purple_progress</item>
+        <item name="android:thumbOffset">0dip</item>
+    </style>
+    <style  name="TextViewStyle1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/shape_font_color</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style  name="TextViewStyle2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/shape_font_color</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style  name="TextViewStyle3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/shape_font_color</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style  name="chlist_tv_secondfragment">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100px</item>
+        <item name="android:background">@drawable/chlist_channel_item_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">58px</item>
+        <item name="android:paddingRight">58px</item>
+        <item name="android:textColor">@color/chlist_ch_text_default</item>
+        <item name="android:textSize">36px</item>
+    </style>
+
+    <style  name="chlist_ll_tridfragment">
+        <item name="android:onClick">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">@drawable/chlist_trid_fragment_selector</item>
+        <item name="android:paddingRight">52px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100px</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style  name="chlist_iv_tridfragment">
+        <item name="android:layout_width">18px</item>
+        <item name="android:layout_height">18px</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">52px</item>
+        <item name="android:layout_marginRight">28px</item>
+        <item name="android:background">@drawable/chlist_icon_no_fav_point</item>
+    </style>
+    <style  name="chlist_tv_tridfragment">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#777777</item>
+        <item name="android:textSize">32px</item>
+    </style>
+</resources>

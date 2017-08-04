@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AndroidTvSupport</string>
+    <string name="msg_missing_app" msgid="8291542072400042076">"No app was found to handle this action."</string>
+    <!-->for set up button</-->
+    <string name="Source_Setup">Setup</string>
+    <string name="Skyworth">Skyworth</string>
+    <string name="SD">SD</string>
+    <string name="HD">HD</string>
+    <string name="FHD">FHD</string>
+    <string name="UHD">UHD</string>
+    <string name="Unknow">Unknow</string>
+    <!-->for ad view pictures</-->
+    <string name="Ad_Image">Application advertisement</string>
+    <string name="Program_Preview">Program Preview</string>
+</resources>

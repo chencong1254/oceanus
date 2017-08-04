@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+
+    defaultConfig {
+        applicationId "skyworth.skymtkandroidtvinput"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    signingConfigs {
+        release {
+            storeFile file("../paltform_n.jks")
+            storePassword 'android7'
+            keyAlias 'platform'
+            keyPassword 'android7'
+        }
+
+        debug {
+            storeFile file("../paltform_n.jks")
+            storePassword 'android7'
+            keyAlias 'platform'
+            keyPassword 'android7'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    provided files('libs/framework.jar')
+    provided files('libs/com.mediatek.twoworlds.tv.jar')
+    compile 'com.android.support:leanback-v17:25.3.1'
+    provided files('libs/com.mediatek.mmp.jar')
+}

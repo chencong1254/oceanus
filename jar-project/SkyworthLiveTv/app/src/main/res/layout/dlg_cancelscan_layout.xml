@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@color/livetvsettings_background"
+    android:padding="50dp">
+
+    <TextView
+        android:id="@+id/canceltxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Are you sure to cancel the search?"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp">
+        <LinearLayout
+            android:id="@+id/okbutton"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_corner_bk_all"
+            android:layout_marginBottom="30dp"
+            android:focusable="true">
+            <TextView
+                android:id="@+id/okbuttontxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textColor="@drawable/shape_font_color"
+                android:duplicateParentState="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="OK"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cancelbutton"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_corner_bk_all"
+            android:layout_marginBottom="30dp"
+            android:focusable="true"
+            android:layout_marginLeft="40dp">
+            <TextView
+                android:id="@+id/cancelbuttontxt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textColor="@drawable/shape_font_color"
+                android:duplicateParentState="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Cancel"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SkyworthAndroidTvLuncherConfiger.iml" filepath="$PROJECT_DIR$/SkyworthAndroidTvLuncherConfiger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luncherConfig/luncherConfig.iml" filepath="$PROJECT_DIR$/luncherConfig/luncherConfig.iml" />
+    </modules>
+  </component>
+</project>

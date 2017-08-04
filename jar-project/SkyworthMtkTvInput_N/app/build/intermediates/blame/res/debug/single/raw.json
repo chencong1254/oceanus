@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\raw\\lb_voice_success.ogg",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\raw\\lb_voice_success.ogg"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\raw\\lb_voice_no_input.ogg",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\raw\\lb_voice_no_input.ogg"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\raw\\lb_voice_failure.ogg",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\raw\\lb_voice_failure.ogg"
+    },
+    {
+        "merged": "F:\\android-project\\Apps\\SkyworthMtkTvInput_N\\app\\build\\intermediates\\res\\merged\\debug\\raw\\lb_voice_open.ogg",
+        "source": "C:\\Users\\sky057509\\.android\\build-cache\\7d2ba0b1b326d4af54624584db45a014332f6354\\output\\res\\raw\\lb_voice_open.ogg"
+    }
+]

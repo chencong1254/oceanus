@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="600px" android:layout_height="100px"
+              android:focusable="true"
+              android:background="@drawable/chlist_channel_item_selector"
+              android:orientation="horizontal"
+>
+
+    <ImageView
+        android:layout_marginLeft="40px"
+        android:layout_gravity="center"
+        android:id="@+id/iv_sort_select"
+        android:layout_width="24px"
+        android:layout_height="24px"
+        android:layout_marginRight="156px"
+        android:src="@drawable/chlist_sort_unselected_point"
+    />
+    <TextView
+        android:singleLine="true"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_sort_name"
+        android:layout_width="600px"
+        android:layout_height="100px"
+        android:focusable="false"
+        android:text="Default"
+        android:textSize="36px"
+        android:textColor="@color/chlist_ch_text_default"
+    />
+</LinearLayout>
