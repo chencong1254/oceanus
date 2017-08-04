@@ -1,2 +1,2 @@
 # oceanus
-android tv 中间件
+android tv middleware application part
